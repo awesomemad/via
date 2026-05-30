@@ -1,0 +1,4 @@
+name: via
+version: "0.1.0"
+description: "VIA GUI Engine — native Windows GUI control (click, type, dump UIA tree, window management, virtual desktops)"
+entrypoint: __init__.py

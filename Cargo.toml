@@ -1,0 +1,3 @@
+[workspace]
+members = ["via-engine", "via-cli", "via-mcp", "via-cdylib"]
+resolver = "2"

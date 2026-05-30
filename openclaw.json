@@ -1,0 +1,10 @@
+{
+  "mcp": {
+    "servers": {
+      "via": {
+        "command": "./target/release/via-mcp.exe",
+        "description": "Windows GUI automation engine"
+      }
+    }
+  }
+}

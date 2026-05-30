@@ -1,0 +1,12 @@
+[package]
+name = "via-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "via"
+path = "src/main.rs"
+
+[dependencies]
+via-engine = { path = "../via-engine" }
+anyhow = "1.0"

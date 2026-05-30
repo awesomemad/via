@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "via": {
+      "type": "local",
+      "command": ["${workspaceRoot}/target/release/via-mcp.exe"],
+      "enabled": true,
+      "description": "Sovereign GUI Engine - total Windows GUI control"
+    }
+  }
+}

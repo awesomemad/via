@@ -1,0 +1,23 @@
+[package]
+name = "via-engine"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "via_engine"
+path = "src/lib.rs"
+
+[dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_UI_Accessibility",
+    "Win32_System_Com",
+    "Win32_UI_Shell",
+    "Win32_System_Ole",
+    "Win32_Globalization",
+]} 
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
