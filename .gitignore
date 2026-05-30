@@ -1,0 +1,9 @@
+/target/
+Cargo.lock
+.claude/
+.opencode/
+*.exe
+*.dll
+*.so
+*.dylib
+.DS_Store
